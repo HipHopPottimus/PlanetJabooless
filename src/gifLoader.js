@@ -15,7 +15,7 @@ export function loadGifs(src,output = document.body){
                 <p>${gif.title}</p>
                 <p>${gif.blurb}</p>
                 <br>
-                <a onclick="this.parentElement.remove()">Close</a>
+                <a onclick="document.querySelectorAll('dialog').forEach(d => d.remove())">Close</a>
 
             `;
             dialog.style.overflow = "auto";
