@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planet jabooless- geography</title>
+        <link rel="icon" href="Animations/Cropped planet.gif">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Planet jabooless- geography</h1>
+        <button><a href="main.html">Back</a></button>
+        <p>
+            The planet Jabooless is the 7th planet from the sun in the capronous system, so the surface water instantly freezes.
+            Thanks to the hot vents, the ice at the bottom of the seas melted allowing life to thrive in the harsh conditions.
+            This planet’s crust is filled with cracks because the planet is near an asteroid belt and off shoots from that constantly slam into the surface.
+        </p>
+        <script type="module">
+            import {loadGifs} from "./gifLoader.js";
+            let output = document.createElement("DIV");
+            loadGifs([                
+                {
+                    src: "Animations/Planet.gif",
+                    title: "Planet jabooless",
+                    blurb: ""
+                },
+                {
+                    src: "Animations/Ice Sheet.gif",
+                    title: "Ice sheet",
+                    blurb: ""
+                },
+                {
+                    src: "Animations/Underwater vent.gif",
+                    title: "Underwater vents",
+                    blurb: ""
+                }
+                ],output);
+            document.body.appendChild(output);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planet jabooless- organisms</title>
+        <link rel="icon" href="Animations/Cropped planet.gif">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Planet jabooless- organisms</h1>
+        <button><a href="main.html">Back</a></button>
+        <p>These animals all have certain qualities that help them survive in this abnormal (for us) ecosystem. 
+            All fish/crustaceans have infrared eyes to spot the obstacles in front of them in the dark waters.
+            Another common trait between these animals is having thick scales/exoskeleton so that they can stop pressure crushing them and so that their body heat doesn’t stand out as much against the desolate backdrop.
+            The specimens here are only a small handful of the main population so it should be taken into consideration that not only are these just categories of fish but that this planet would be much more biodiverse than we can present.
+        </p>
+        <script type="module">
+            import {loadGifs} from "./gifLoader.js";
+            let output = document.createElement("DIV");
+            loadGifs([
+                {
+                    src: "Animations/Trap Fish.gif",
+                    title: "Trap fish",
+                    blurb: "This bulbous animal is a trap fish, a predatory fish that dwells in the darkest areas in between each hot spot waiting to lure in lost filter fish or foolhardy striker fish. Hiding is easier than you would think for this huge beast (1 metre long) because the hot lure in front of it draws the eye of other fish so that they don’t notice the slightly cooler hulking mass. These fish would have to be apex predators on this planet because of their size and brain power. The main cause of death in this category would be lost trap fish near hotspots, a lucky striker fish or old age. The Trap fish spends all of its life swimming in the darkest of corners for they have no need to move anywhere else."
+                },
+                {
+                    src: "Animations/Striker Fish.gif",
+                    title: "Striker fish",
+                    blurb: "This category of fish is called the striker fish. These fish grow to about half a metre and live in the colder areas below the planets ice between each hotspot location. Striker fish have adapted to have a thinner body and have thick insulating scales to keep the minimal body heat in and to keep prying eyes away. The Striker fish’s attack strategy would be to lie in wait for smaller filter fish (see below) to swim on by and when the fish do they strike. Striker fish go into a sort of coma in between meals to a) use less precious energy and b), to be less visible to other predatory fish in the area. When they sense another fish’s presence through pressure waves, they lunge out at them and hit them with their though scales immobilising them, so the kill is much cleaner, of course sometimes they pick on larger fish without realising it and then its their turn to be prey."
+                },
+                {
+                    src: "Animations/Filter Fish.gif",
+                    title: "Filter fish",
+                    blurb: "This is the Filter fish. This category of fish spends their time going in and out of hot spot locations to ensure the adverse conditions don’t affect their systems too much. Filter fish’s small body (around 5 cm) allows them to duck into small crevices to gobble up the little Shrimp before heading out into open waters to refresh. Tiny fibres like the baleen in whales mouths coat these fish’s mouth to trap shrimp and filter out nasty polluted water. While in the hotspots Filter Fish use special heated/cooled strips along their back and on their underside to camouflage. If any predators would look from above at the small fish, then they would only see the hot rocks and if a bigger fish would look from the bottom (though this would be rare because of the boiling temperatures and the toxins) they would just see the cool ice above."
+                },
+                {
+                    src: "Animations/shrimp.gif",
+                    title: "Shrimp",
+                    blurb: "This Shrimp is one of the many diverse types of minuscule creatures that inhabit the hotspots. Coming in at around 0.2-2mm this inhabitant has many different options when hiding, for example it could sneak in a small crevasse or simply try to go unnoticed. The Shrimp is one of few things that can thrive in the harsh conditions near geothermal cracks, so it does not have much competition when it comes to feeding; it just flails its tiny legs around to get close to a clump of bacteria and munch, down it goes. But when you get overconfident accidents occur like sometimes, they aren’t paying attention, and they drift to close to the vents, and they perish in a wisp of steam.",
+                },
+                {
+                    src: "Animations/Simple Chemosynthetic Bacteria.gif",
+                    title: "Chemosynthetic Bacteria",
+                    blurb: "This is a chemosynthetic bacterium The smallest of life down at the bottom of the oceans of this desolate world right next to the vents so they can use the hydrogen sulphide (H2S) produced there to create the sugars which the whole ecosystem thrives on. Without these magnificent bacteria all the animals inhabiting the planet would perish. While being kept in check by shrimp the bacteria has still found a way to thrive near the vents because the shrimp are the only things capable of eating such tiny creatures. Being the size they are (10 microns) this bacterium can go virtually anywhere in the hotspot area but they can not go outside the warmth because they need heat to survive. ",
+                }
+            ],output);
+            document.body.appendChild(output);
+        </script>
+        <div></div>
+    </body>
+</html>
