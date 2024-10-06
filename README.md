@@ -4,7 +4,7 @@ This project is our team's representation of a planet we created where chemosynt
 Project Demo
 https://youtu.be/JGEkC66og8k
 Final Project
-[https://hiphoppottimus.github.io/PlanetJabooless/src/main.html] (https://hiphoppottimus.github.io/PlanetJabooless/src/main.html)
+https://hiphoppottimus.github.io/PlanetJabooless/src/main.html
 Project Details
 Our project demonstrates a possible planet in another solar system that could contain chemosynthetic life. We hope that this project will inspire astrobiologists to consider different ways to look at life on other planets.
 
