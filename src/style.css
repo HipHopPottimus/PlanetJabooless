@@ -5,7 +5,14 @@ body{
     color: white;
 }
 
-button{
+p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50vw;
+    text-align: center;
+}
+
+a{
     background-color: rgb(113, 162, 179);
     border: none;
     border-radius: 3px;
@@ -14,11 +21,11 @@ button{
     padding: 5px;
 }
 
-button:hover{
+a:hover{
     background: rgb(99, 142, 156)
 }
 
-button > a{
+a{
     font-style: normal;
     text-decoration: none;
     color: black;
@@ -47,6 +54,7 @@ dialog{
     border: 3px solid black;
     border-radius: 15px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .gifImage{

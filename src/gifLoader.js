@@ -15,13 +15,14 @@ export function loadGifs(src,output = document.body){
                 <p>${gif.title}</p>
                 <p>${gif.blurb}</p>
                 <br>
-                <button onclick="this.parentElement.remove()">Close</button>
+                <a onclick="this.parentElement.remove()">Close</a>
 
             `;
             dialog.style.overflow = "auto";
             document.body.appendChild(dialog);
             dialog.show();
             dialog.scroll(0,0);
+            dialog.blur();
         }
         output.appendChild(div);
     }
