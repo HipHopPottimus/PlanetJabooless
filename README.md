@@ -4,10 +4,6 @@ High-Level Summary
 
 This project is our team's representation of a planet we created where chemosynthetic life thrives by using chemicals found in under water vents inspired by life in the Earth's deep oceans. We based our example of a food pyramid on the inspirations from NASA descriptions of watery worlds and deep sea life that runs without access to sunlight here on Earth.
 
-Project Demo
-
-https://youtu.be/JGEkC66og8k
-
 Final Project
 
 https://hiphoppottimus.github.io/PlanetJabooless/src/main.html
